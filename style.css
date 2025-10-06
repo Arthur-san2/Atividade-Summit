@@ -8,4 +8,39 @@ body {
   font-family: var(--font-main);
   margin: 0;
   padding: 0;
+  background-color: #f4f6f8; /* cor de fundo adicionada */
 }
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ⚠️ PONTO DE CONFLITO 1 */
+h2 {
+  color: blue;
+  padding-bottom: 10px;
+}
+
