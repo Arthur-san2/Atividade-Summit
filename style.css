@@ -9,3 +9,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Estilo da seção de Palestrantes */
+#palestrantes {
+  background-color: #ecf0f1;
+  padding: 40px;
+  text-align: center;
+}
+
+#palestrantes .palestrante {
+  margin: 20px 0;
+}
+
+#palestrantes h3 {
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
