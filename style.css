@@ -9,3 +9,25 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* ⚠️ PONTO DE CONFLITO 2 */
+h2 {
+  color: darkgreen;
+  text-transform: uppercase;
+}
+
+/* Estilo da seção Agenda */
+#agenda {
+  padding: 40px;
+  text-align: center;
+}
+
+#agenda ul {
+  list-style: none;
+  padding: 0;
+}
+
+#agenda li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
